@@ -1,1 +1,0 @@
-import{bO as i}from"./index.ecbb2424.js";const m=[];function s(e){e.sort((t,a)=>a.createTime-t.createTime)}const r=i("image",{state:()=>({images:m}),actions:{setImages(e){s(e),this.images=e},addImage(e){this.images.push(e),s(this.images)}}});export{r as u};

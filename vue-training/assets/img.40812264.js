@@ -1,0 +1,1 @@
+import{bJ as a,bN as o}from"./index.3d8b607e.js";function n(){return a.post("/getUpLoadPass")}function g(t,s){return o.post("",{file:t,...s})}function p(t,s){return a.post("/saveImg",{url:t,yunId:s})}function r(){return a.post("/getImgsByAccount")}export{n as a,r as g,p as s,g as u};
